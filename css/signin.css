@@ -1,0 +1,110 @@
+body{
+            background: url(../img/src/bg.jpg);
+            background-attachment: fixed;
+            background-size: 100%;
+            margin:0;
+            padding: 0;
+        }
+
+p{
+    position: fixed;
+    top:23%;
+    left:10%;
+    font-size: 70px;
+    line-height: 5.5rem;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+li{
+    list-style: none;
+    background:  url(../img/src/done.png) left center no-repeat;
+    padding: 4px 10px 4px 40px;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    line-height: 2.5rem;
+}
+
+ul{
+    position: fixed;
+    top:52%;
+    left:8%;
+}
+
+b{
+    position: fixed;
+    top:2%;
+    left:10%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #262c36;  
+}
+
+/*сама форма*/
+form{
+    position: fixed;
+    top:30%;
+    left:60%;
+    bottom:35%;
+    padding: 5px;
+    height:360px;
+    width:400px;
+    background-color: rgba(65, 65, 65, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*зарегистрироваться*/
+form a{
+    text-decoration: none;
+    color: white;
+}
+
+form a:hover{
+    color: orangered;
+}
+
+/*заголовок*/
+h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+/*поля*/
+form input[type="text"],[type="password"]{
+    width: 15rem;
+    height:2rem;
+    outline: none;
+    padding:2px 2px 2px 2px;
+    margin-bottom: 15px;
+    border:2px solid #c2d0d9;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+/*кнопка отправить*/
+form input[type="submit"]{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 15rem;
+    padding: 7px 0 7px 0;
+    font-size:1.2rem;
+    border:1px solid  #c2d0d9;
+    border-radius:5px;
+    background-color: #c2d0d9;   
+    color: rgb(51, 51, 51);
+    outline: none;
+}
+
+/*цвета при наведении на кнопку*/
+form input[type="submit"]:hover{
+    border:1px solid  #777777;  
+    background-color: #bcbebe; 
+    color:rgb(58, 57, 57); 
+}
+
